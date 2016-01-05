@@ -2,9 +2,10 @@
 
 Steps to work on Chef-Provisioning on AWS-EC2
 
-# Creating credentials file and as per below format:
-# No quotes are needed for the key values.
+Creating credentials file and as per below format:
+No quotes are needed for the key values.
 1.  create ~/.aws/credentials 
+
 [default]
 aws_access_key_id = XXXXXXXXXXXXXXXX 
 aws_secret_access_key = XXXXXXXXXXXXXXXXX 
