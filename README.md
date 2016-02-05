@@ -16,9 +16,7 @@ No quotes are needed for the key values.</p>
 <p>machine 'demo' do</br>
 &nbsp;&nbsp;&nbsp;&nbsp;recipe 'apache'</br>
 end</p></br>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <p>with_machine_options({</br>
   bootstrap_options: {</br>
   &nbsp;&nbsp;&nbsp;&nbsp; image_id: "ami-5915e11d", # default for us-west-1</br>
