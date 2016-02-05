@@ -6,11 +6,12 @@ Creating credentials file and as per below format:
 No quotes are needed for the key values.
 1.  create ~/.aws/credentials 
 
-'''[default]
+<h4>[default]</h4>
+<p>
 aws_access_key_id = XXXXXXXXXXXXXXXX 
-aws_secret_access_key = XXXXXXXXXXXXXXXXX 
-region = us-west-2'''
-
+   aws_secret_access_key = XXXXXXXXXXXXXXXXX 
+   region = us-west-2'''
+</p>
 2. Create simple.rb file as below:
 
 '''machine 'demo' do
